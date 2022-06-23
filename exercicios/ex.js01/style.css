@@ -1,0 +1,41 @@
+
+/*Formatação do corpo*/
+body {
+    background: rgba(55, 116, 207, 0.452);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+/*Formatação do cabeçalho*/
+header {
+    color: white;
+    text-align: center;
+}
+
+/*Formatação do Paragrafo*/
+p {
+   color:rgba(0, 0, 0, 0.514)
+}
+
+/*Formatação da seção*/
+section {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.514);
+}
+
+/*Formatção da divisão*/
+div {
+    text-align: center;
+    padding: 20px;
+}
+
+/*Formatação do rodapé*/
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
