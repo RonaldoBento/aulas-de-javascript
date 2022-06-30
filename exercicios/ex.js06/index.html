@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados com JS</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body { font-family: Arial, Helvetica, sans-serif; font-size: 2em; text-align: center; background-color: cadetblue; color: darkblue;}
+        button { font-size: 30pt; padding: 30px; background-color: rgb(212, 148, 20); color: white; border-radius: 20px; box-shadow: 2px 2px 3px 5px rgba(0, 0, 0, 0.445); } 
+        section {
+            background: white;
+            border-radius: 20px;
+            width: 500px;
+            padding: 0px;
+            margin: auto;
+            box-shadow: 2px 2px 2px 5px black;
+        }
+        div {
+            padding: 0px;
+        }
+        p {
+            font-size: 20pt;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Dados 2.0</h1><br>
+    <button onclick="inicio()">Clique aqui para começar!</button>
+
+    <section id="resultado">
+        <div>
+            <p>Aqui vai aparecer o resultado... </p>
+            <script>
+                function inicio() {
+                    let nome = window.prompt(' Qual é o seu nome?')
+                    let res = window.document.getElementById('resultado')
+                    // Também funciona com o comando abaixo
+                    // let res = window.document.querySelector('section#resultado')
+                    res.innerHTML = `<p>Olá, <strong>${nome}</strong>! <br>É um grande prazer em te conhecer! &#x1F596;</p>`
+                }       
+            </script>
+        </div>
+    </section>
+</body>
+<footer>
+    <br><p>Por &copy; <strong>Bento Projeto</strong></p>
+</footer>
+</html>

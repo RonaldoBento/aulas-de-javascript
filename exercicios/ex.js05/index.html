@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados com JS</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {background-color: rgb(190, 224, 224);  }
+        button { font-family: Arial, Helvetica, sans-serif; font-size: 2em; text-align: center; padding: 30px; border-radius: 20px; background-color: gold; box-shadow: 2px 2px 3px 5px rgba(0, 0, 0, 0.336);}
+        h1 {
+            font-family: Arial, Helvetica, sans-serif; font-size: 2em; text-align: center; background-color: rgb(13, 101, 179); color: white;
+        }
+        p {
+            font-size: 20pt;
+            text-align: center;
+            color: rgb(4, 85, 155);
+
+        }
+        section {
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 3px 3px 3px 10px black;
+        }
+        div {
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com dados </h1><br>
+    <section>
+        <div>
+            <button onclick="start()">Clique aqui para começar!</button>
+            <script>
+                function start() {
+                    let name = window.prompt(' Qual é o seu nome? ')
+                    window.alert(` Olá, ${name}! É um enorme prazer em te conhecer!`)
+                }
+             </script>
+        </div>
+    </section>
+</body>
+<footer>
+    <br><p>Por &copy; <strong>Bento Projeto</strong></p>
+</footer>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação JS</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {font-family: 'Times New Roman', Times, serif; font-size: 1.5em; text-align: center;background-color: blanchedalmond;}
+        button {border-radius: 20px; text-align: center; font-size: 1em; padding: 30px ; background-color: darkorange; box-shadow: 2px 2px 3px 5px rgba(0, 0, 0, 0.479);}
+        h1 {
+            text-align: center;
+        }
+        p{
+            font-size: 20pt;
+            color: darkgreen;
+        }
+        section {
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 3px 3px 3px 10px black;
+        }
+        div{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interagindo com um botão</h1><br>
+    <section>
+        <div>
+            <button onclick="clicou()">Clica no botão para ver uma mensagem de alerta!</button>
+            <script>
+                function clicou() {
+                    window.alert('CUIDADO! Você clicou no botão!')
+                }
+            </script>
+        </div>
+</section>
+</body>
+<footer>
+    <br><p>Por &copy; <strong>Bento Projeto</strong></p>
+</footer>
+</html>
