@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <title>Bento Projeto</title>
+</head>
+<body>
+    <script>
+        function calcTotal() {
+            let qtd = parseInt(document.getElementById('cQtd').value);
+            tot = qtd * 1500;
+            document.getElementById('cTot').value = tot;
+        }
+    </script>
+    <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            text-align: center;
+           text-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.397);
+            color: darkred;
+        }
+    </style>
+    <section>
+        <div>
+            <h1>Formulário de Contato</h1>
+            <form method="post" id="fContato" action="mailto:contato@cursoemvideo.com" oninput="calcTotal();">
+                <fieldset id="pedido"><legend><strong>Quero um Google Glass</strong></legend>
+                    <p><input type="checkbox" name="tPed" id="cPed" checked> <label for="cPed"><strong>Gostaria de adquirir um Google Glass quando disponível:</strong></label></p>
+                    <p><label for="cCor"><strong>Cor: </strong></label><input type="color" name="tCor" id="cCor" value="#888888"> </p>
+                    <p><label for="cQtd"><strong>Quantidade: </strong></label><input type="number" name="tQtd" id="cQtd" min="0" max="10" value="0"> </p>
+                    <p><label for="cTot"><strong>Preço Total: R$ </strong></label><input type="text" name="tTot" id="cTot" placeholder="Total a pagar: " readonly> </p>
+                </fieldset>
+               <input type="image" name="tEnviar" id="cEnviar" src="botao-enviar.png" alt="botão de enviar">
+            </form>
+             <p style="text-align: center;"><strong>Copyright</strong> &copy; 2022 - by <em>Ronaldo Rodrigues Bento</em></p>
+        </div>
+    </section> 
+</body>
+</html>
+ 

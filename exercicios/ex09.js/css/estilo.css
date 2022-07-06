@@ -1,0 +1,83 @@
+html {
+    font: 15pt Arial;
+}
+
+body {
+    background: url("wallpaper.jpg") no-repeat top center fixed;
+    background-size: cover;
+}
+
+div::before {
+    content: " Bento Projeto - by Ronaldo Rodrigues Bento ";
+    font: 15pt Arial;
+    font-weight: bold;
+    color: white;
+    background-color: #b33535;
+    padding: 5px;
+    display: block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 570px;
+}
+
+div {
+    background-color: rgba(255,255,255,.8);
+    margin: 100px auto 100px auto;
+    padding: 10px;
+    width: 560px;
+    min-height:350px;
+}
+
+a {
+    color: #273747;
+    text-decoration: none;
+    font-weight: bold;
+    font: 11pt Helvetica;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span.foco {
+    font-weight: bold;
+    color: #7e050c;
+}
+
+/*Formatando o formulário*/
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15pt;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+input:hover, textarea:hover {
+    background-color: #ccc;
+}
+
+legend {
+    color: #888;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    border-inline-start-color: #888;
+    margin: 20px;
+}
+
+fieldset#sexo {
+    width: 150px;
+}
+
+fieldset#pedido {
+    background: url(../icone-pagamento.png) no-repeat 99% 99%;
+}
