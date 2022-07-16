@@ -1,17 +1,25 @@
 # aulas-de-javascript
- Exercírcios básicos de JavaScript
+
+## Exercírcios básicos em JavaScript
+
+<img src="logo.png" alt="logo do javascript no formato png"><br>
 
  ## IMPORTANTE ##
     Você tem todo o direito de usar esse material 
     para seu próprio aprendizado. Espero que seja útil 
     o conteúdo disponibilizado. 
 
-<img src="logo.png" alt="logo do javascript no formato png">
-
 
 ## Lista de exercícios de HTML-CSS e Java Script. 
 
 <p>O <strong>GitHub Pages</strong> é um serviço de hospedagem de site estático que usa arquivos HTML, CSS e JavaScript diretamente de um repositório no GitHub e, como opção, executa os arquivos por meio de um processo e publica um site.</p><br>
+
+## Exemplos de Scripts:
+
+<img src="modelo.png" alt="logo do javascript no formato png"><br>
+
+
+<img src="formulario.png" alt="logo do javascript no formato png"><br>
 
 
 <a href="https://ronaldobento.github.io/aulas-de-javascript/exercicios/ex01/index.html" target="_blank" rel="external" title="exercício 01"><strong>exercício 01</strong></a>
