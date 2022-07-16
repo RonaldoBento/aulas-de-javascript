@@ -8,6 +8,12 @@
 
 <img src="logo.png" alt="logo do javascript no formato png">
 
+
+## Lista de exercícios de HTML-CSS e Java Script. 
+
+<p>O <strong>GitHub Pages</strong> é um serviço de hospedagem de site estático que usa arquivos HTML, CSS e JavaScript diretamente de um repositório no GitHub e, como opção, executa os arquivos por meio de um processo e publica um site.</p><br>
+
+
 <a href="https://ronaldobento.github.io/aulas-de-javascript/exercicios/ex01/index.html" target="_blank" rel="external" title="exercício 01"><strong>exercício 01</strong></a>
 
 <a href="https://ronaldobento.github.io/aulas-de-javascript/exercicios/ex02/index.html" target="_blank" rel="external" title="exercício 02"><strong>exercício 02</strong></a>
