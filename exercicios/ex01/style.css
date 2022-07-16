@@ -12,6 +12,10 @@ header {
     text-align: center;
 }
 
+h1 {
+    text-shadow: 3px 3px 3px black;
+}
+
 /*Formatação do Paragrafo*/
 p {
    color:rgba(0, 0, 0, 0.514)
