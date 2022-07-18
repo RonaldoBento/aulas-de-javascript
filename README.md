@@ -5,6 +5,9 @@
 <img src="logo.png" alt="logo do javascript no formato png"><br>
 
  ## IMPORTANTE ##
+ 
+  [![NPM](https://img.shields.io/npm/l/react)](https://github.com/RonaldoBento/aulas-de-javascript/blob/main/LICENSE) 
+  
     Você tem todo o direito de usar esse material 
     para seu próprio aprendizado. Espero que seja útil 
     o conteúdo disponibilizado. 
