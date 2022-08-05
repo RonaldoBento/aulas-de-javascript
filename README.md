@@ -38,3 +38,7 @@
 <a href="https://ronaldobento.github.io/aulas-de-javascript/exercicios/ex08/index.html" target="_blank" rel="external" title="exercício 08"><strong>exercício 08</strong></a>
 
 <a href="https://ronaldobento.github.io/aulas-de-javascript/exercicios/ex09/index.html" target="_blank" rel="external" title="exercício 09"><strong>exercício 09</strong></a>
+
+<a href="https://ronaldobento.github.io/aulas-de-javascript/exercicios/memory-game-rick-and-morty/index.html" target="_blank" rel="external" title="exercício 09"><strong>exercício extra</strong></a>
+
+
