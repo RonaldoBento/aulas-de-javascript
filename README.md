@@ -2,9 +2,9 @@
 
 ## Exercírcios básicos em JavaScript
 
-<img src="logo.png" alt="logo do javascript no formato png"><br>
+<br><img src="logo.png" alt="logo do javascript no formato png"><br>
 
- ## IMPORTANTE ##
+ ## IMPORTANTE 
  
   [![NPM](https://img.shields.io/npm/l/react)](https://github.com/RonaldoBento/aulas-de-javascript/blob/main/LICENSE) 
   
@@ -22,7 +22,7 @@ Com seus scripts é possível incluir, em uma página estática, elementos dinâ
 
 ## Exemplos de Scripts:
 
-<img align="center" src="modelo.png" alt="logo do javascript no formato png"><br>
+<img src="modelo.png" alt="logo do projeto lampada no formato png"><br>
 
 
 <img src="formulario.png" alt="logo do javascript no formato png"><br>
