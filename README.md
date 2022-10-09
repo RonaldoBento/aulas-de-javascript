@@ -53,3 +53,5 @@ Com seus scripts é possível incluir, em uma página estática, elementos dinâ
 <a href="https://ronaldobento.github.io/aulas-de-javascript/exercicios/memory-game-rick-and-morty/index.html" target="_blank" rel="external" title="exercício 10"><strong>exercício 10</strong></a>
 
 <a href="https://ronaldobento.github.io/aulas-de-javascript/exercicios/jogo-da-velha/index.html" target="_blank" rel="external" title="exercício 11"><strong>exercício 11</strong></a>
+
+<a href="https://ronaldobento.github.io/aulas-de-javascript/exercicios/pedra-papel-tesoura/index.html" target="_blank" rel="external" title="exercício 12"><strong>exercício 12</strong></a>
