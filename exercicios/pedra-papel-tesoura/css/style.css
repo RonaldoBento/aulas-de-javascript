@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --bg-color: #1E1547;
+    --highlight-color: #F93400;
+    --hover-color: #FF5600;
+    --choice-color: #FFFF8E;
+    --visitor-choice: solid 4px #35DC00;
+    --host-choice: solid 4px #E20701;
+    --border: solid 4px #EBEEDE;
+}
+
+* {
+    font-weight: 100;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    width: 95%;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.score-board {
+    position: relative;
+    border: var(--border);
+    width: 240px;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 4px 20px;
+}
+
+.score-name {
+    background-color: var(--highlight-color);
+    width: 48px;
+    padding: 2px;
+    position: absolute;
+    top: 1.5em;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+.score-name.score-visitor {
+    left: -24px;
+}
+
+.score-name.score-host {
+    right: -24px;
+}
+
+.score-points {
+    font-size: 3em;
+    margin: 0px 24px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+[ppt-button] {
+    background: none;
+    border: var(--border);
+    border-radius: 50%;
+    margin: 10px 8px;
+    transition: all .2s;
+    outline: none;
+}
+
+[ppt-button].visitor-choice {
+    border: var(--visitor-choice);
+    background-color: #95ff75;
+}
+
+[ppt-button].host-choice {
+    border: var(--host-choice);
+    background-color: #ff625d;
+}
+
+[ppt-button] > img {
+    width: 100%;
+}
+
+button[ppt-button]:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+button[ppt-button]:active {
+    background-color: var(--choice-color);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.5em;
+}
